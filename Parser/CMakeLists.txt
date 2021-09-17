@@ -1,0 +1,4 @@
+project(Parser)
+
+add_library(parser STATIC Parser.cpp)
+target_link_libraries(parser -lgumbo)
